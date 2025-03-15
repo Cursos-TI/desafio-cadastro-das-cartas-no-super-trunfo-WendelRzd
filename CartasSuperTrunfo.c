@@ -44,6 +44,9 @@ int main(){
     printf("Codigo da Carta:");
     scanf("%s", codigo);
 
+    float densidadepopulacional = (populacao/area);
+    float pippercapita = (pib/area);
+
 //Exibição carta 1
     printf("Estado: %s \n", Estado);
     printf("Cidade: %s \n", cidade);
@@ -77,6 +80,9 @@ int main(){
 
     printf("codigo da carta2:");
     scanf("%s", codigo2);
+
+    float densidadepopulacional2 = (populacao2/area2);
+    float pippercapita2 = (pib2/area2);
 
     
 //Exibição carta 2
