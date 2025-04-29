@@ -1,0 +1,103 @@
+#include <stdio.h>
+
+#define TAMANHO_TABULEIRO 10
+#define TAMANHO_NAVIO 3
+
+// Função para exibir o tabuleiro
+void exibirTabuleiro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]) {
+    // Exibe a linha de letras
+    printf("   ");
+    for (int j = 0; j < TAMANHO_TABULEIRO; j++) {
+        printf("%c ", 'A' + j); // Exibe letras de A a J
+    }
+    printf("\n");
+
+    // Exibe o tabuleiro com números de 1 a 10
+    for (int i = 0; i < TAMANHO_TABULEIRO; i++) {
+        printf("%d  ", i + 1); // Exibe números de 1 a 10
+        for (int j = 0; j < TAMANHO_TABULEIRO; j++) {
+            printf("%d ", tabuleiro[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+// Função para verificar se o navio pode ser posicionado
+int podePosicionarNavio(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], int linha, int coluna, int orientacao) {
+    // Verifica se o navio pode ser posicionado horizontalmente
+    if (orientacao == 0) { // Horizontal
+        if (coluna + TAMANHO_NAVIO > TAMANHO_TABULEIRO) return 0; // Fora dos limites
+        for (int i = 0; i < TAMANHO_NAVIO; i++) {
+            if (tabuleiro[linha][coluna + i] != 0) return 0; // Sobreposição
+        }
+    }
+    // Verifica se o navio pode ser posicionado verticalmente
+    else if (orientacao == 1) { // Vertical
+        if (linha + TAMANHO_NAVIO > TAMANHO_TABULEIRO) return 0; // Fora dos limites
+        for (int i = 0; i < TAMANHO_NAVIO; i++) {
+            if (tabuleiro[linha + i][coluna] != 0) return 0; // Sobreposição
+        }
+    }
+    // Verifica se o navio pode ser posicionado diagonalmente
+    else if (orientacao == 2) { // Diagonal (crescente)
+        if (linha + TAMANHO_NAVIO > TAMANHO_TABULEIRO || coluna + TAMANHO_NAVIO > TAMANHO_TABULEIRO) return 0; // Fora dos limites
+        for (int i = 0; i < TAMANHO_NAVIO; i++) {
+            if (tabuleiro[linha + i][coluna + i] != 0) return 0; // Sobreposição
+        }
+    }
+    else if (orientacao == 3) { // Diagonal (decrescente)
+        if (linha + TAMANHO_NAVIO > TAMANHO_TABULEIRO || coluna - TAMANHO_NAVIO < -1) return 0; // Fora dos limites
+        for (int i = 0; i < TAMANHO_NAVIO; i++) {
+            if (tabuleiro[linha + i][coluna - i] != 0) return 0; // Sobreposição
+        }
+    }
+    return 1; // Pode posicionar
+}
+
+// Função para posicionar o navio
+void posicionarNavio(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], int linha, int coluna, int orientacao) {
+    if (orientacao == 0) { // Horizontal
+        for (int i = 0; i < TAMANHO_NAVIO; i++) {
+            tabuleiro[linha][coluna + i] = 3; // 3 representa o navio
+        }
+    } else if (orientacao == 1) { // Vertical
+        for (int i = 0; i < TAMANHO_NAVIO; i++) {
+            tabuleiro[linha + i][coluna] = 3; // 3 representa o navio
+        }
+    } else if (orientacao == 2) { // Diagonal (crescente)
+        for (int i = 0; i < TAMANHO_NAVIO; i++) {
+            tabuleiro[linha + i][coluna + i] = 3; // 3 representa o navio
+        }
+    } else if (orientacao == 3) { // Diagonal (decrescente)
+        for (int i = 0; i < TAMANHO_NAVIO; i++) {
+            tabuleiro[linha + i][coluna - i] = 3; // 3 representa o navio
+        }
+    }
+}
+
+int main() {
+    int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO] = {0}; // Inicializa o tabuleiro com 0
+
+    // Posiciona navios horizontalmente
+    if (podePosicionarNavio(tabuleiro, 0, 0, 0)) {
+        posicionarNavio(tabuleiro, 0, 0, 0); // Navio horizontal na linha 0, coluna 0
+    }
+
+    if (podePosicionarNavio(tabuleiro, 1, 1, 1)) {
+        posicionarNavio(tabuleiro, 1, 1, 1); // Navio vertical na linha 1, coluna 1
+    }
+
+    // Posiciona navios diagonalmente
+    if (podePosicionarNavio(tabuleiro, 2, 2, 2)) {
+        posicionarNavio(tabuleiro, 2, 2, 2); // Navio diagonal crescente na linha 2, coluna 2
+    }
+
+    if (podePosicionarNavio(tabuleiro, 3, 9, 3)) {
+        posicionarNavio(tabuleiro, 3, 9, 3); // Navio diagonal decrescente na linha 3, coluna 9
+    }
+
+    // Exibe o tabuleiro
+    exibirTabuleiro(tabuleiro);
+
+    return 0;
+}
