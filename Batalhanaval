@@ -1,3 +1,333 @@
+rezenndee
+rezenndee
+Em uma chamada
+
+rezenndee — 02/04/2025 21:12
+int main(){
+    int escolhaJogador, escolhaComptador;
+    srand(time(0));
+
+    printf("Jogo de Jokenpô\n");
+    printf("Escolha uma opção:\n");
+    printf("1. Pedra\n");
+    printf("2. Papel\n");
+    printf("3. Tesoura\n");
+    printf("Escolha: ");
+    scanf("%d", &escolhaJogador);
+
+    escolhaComptador = rand() % 3 + 1;
+
+    switch (escolhaJogador)
+    {
+    case 1:
+        printf("Jogador: Pedra - \n");
+        break;
+    case 2:
+        printf("Jogador: Papel - \n");
+        break;
+    case 3:
+        printf("Jogador: Tesoura - \n");
+        break;
+
+    default:
+    printf("OPÇÃO INVALIDA\n");
+        break;
+    }
+
+    switch (escolhaComptador)
+    {
+    case 1:
+        printf("Computador: Pedra\n");
+        break;
+    case 2:
+        printf("Computador: Papel\n");
+        break;
+    case 3:
+        printf("Computador: Tesoura\n");
+        break;
+
+    }
+
+
+    if (escolhaComptador == escolhaJogador)
+    {
+        printf("### EMPATE ###\n");
+    }else if ((escolhaJogador == 1) && (escolhaComptador == 3)  
+               (escolhaJogador == 2) && (escolhaComptador == 1) 
+               (escolhaJogador == 3) && (escolhaComptador == 2))
+    {
+        printf("### ARREGAÇOU! VOCÊ GANHOU, CARAI###!\n");
+    }else {
+        printf("### VOCÊ PERDEU! ###\n");
+    }
+
+    return 0;
+
+}
+rezenndee — 02/04/2025 21:21
+|
+||
+
+|
+
+|
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(){
+    int escolhaJogador, escolhaComptador;
+    srand(time(0));
+
+    printf("Jogo de Jokenpô\n");
+    printf("Escolha uma opção:\n");
+    printf("1. Pedra\n");
+    printf("2. Papel\n");
+    printf("3. Tesoura\n");
+    printf("Escolha: ");
+    scanf("%d", &escolhaJogador);
+
+    escolhaComptador = rand() % 3 + 1;
+
+    switch (escolhaJogador)
+    {
+    case 1:
+        printf("Jogador: Pedra - \n");
+        break;
+    case 2:
+        printf("Jogador: Papel - \n");
+        break;
+    case 3:
+        printf("Jogador: Tesoura - \n");
+        break;
+
+    default:
+    printf("OPÇÃO INVALIDA\n");
+        break;
+    }
+
+    switch (escolhaComptador)
+    {
+    case 1:
+        printf("Computador: Pedra\n");
+        break;
+    case 2:
+        printf("Computador: Papel\n");
+        break;
+    case 3:
+        printf("Computador: Tesoura\n");
+        break;
+
+    }
+
+
+    if (escolhaComptador == escolhaJogador)
+    {
+        printf("### EMPATE ###\n");
+    }else if ((escolhaJogador == 1) && (escolhaComptador == 3)  
+               (escolhaJogador == 2) && (escolhaComptador == 1) 
+               (escolhaJogador == 3) && (escolhaComptador == 2))
+    {
+        printf("### ARREGAÇOU! VOCÊ GANHOU, CARAI###!\n");
+    }else {
+        printf("### VOCÊ PERDEU! ###\n");
+    }
+
+    return 0;
+
+}
+rezenndee
+ iniciou uma chamada que durou poucos segundos. — 03/04/2025 20:27
+rezenndee — 03/04/2025 20:27
+bora
+rezenndee
+ iniciou uma chamada que durou 2 horas. — 03/04/2025 20:27
+rezenndee — 03/04/2025 20:32
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+Expandir
+message.txt
+5 KB
+Iviazinha — 03/04/2025 21:34
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+Expandir
+Desafio.c
+7 KB
+Iviazinha
+ iniciou uma chamada que durou 2 horas. — 07/04/2025 20:27
+Iviazinha — 07/04/2025 22:24
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+Expandir
+Desafio.c
+8 KB
+Iviazinha — 10/04/2025 20:37
+ta ai?
+rezenndee
+ iniciou uma chamada que durou 2 horas. — 10/04/2025 20:37
+Iviazinha — 10/04/2025 21:47
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+
+Expandir
+Desafio.c
+8 KB
+rezenndee
+ iniciou uma chamada que durou 3 minutos. — 12/04/2025 14:01
+rezenndee — 12/04/2025 14:02
+ta ai ?
+ta me ouvindo?
+Iviazinha — 12/04/2025 14:03
+ta me ouvindo não?
+não
+de hj que falo
+rezenndee — 12/04/2025 14:03
+to ouvindo nao
+Iviazinha — 12/04/2025 14:03
+oxe
+rezenndee — 12/04/2025 14:03
+voce nao ta me ouvindo?
+Iviazinha — 12/04/2025 14:03
+não
+rezenndee — 12/04/2025 14:03
+Imagem
+tem que ficar verde quando fala
+Não está captando o seu
+Iviazinha — 12/04/2025 14:04
+e aqui assim
+Imagem
+rezenndee — 12/04/2025 14:04
+oxe kkkkkkkkkk
+pere
+Iviazinha — 12/04/2025 14:04
+kkkkk
+rezenndee
+ iniciou uma chamada que durou 3 horas. — 12/04/2025 14:05
+Iviazinha — 12/04/2025 15:16
+kd tu
+Iviazinha — 12/04/2025 17:14
+#include <stdio.h>
+
+int main() {
+    // Definindo o nÃºmero de casas a serem movidas
+     int casasTorre = 5;
+     int casasBispo = 5;
+Expandir
+jogoXadrez.c
+1 KB
+rezenndee — 22/04/2025 21:44
+#include <stdio.h>
+
+
+//Movimento da torre
+void moverTorre(int casas){
+    if (casas > 0) {
+        printf("Direita\n");
+        moverTorre(casas - 1);
+        printf("\n");
+    }
+}
+
+
+//Movimento da rainha 
+void moverRainha(int casas2){
+    if (casas2 > 0){
+        printf("Direita\n");
+        printf("Cima\n");
+        moverRainha(casas2 - 1);
+        printf("\n");
+    }
+}
+
+
+
+//Movimento do Cavalo
+void moverCavalo(int casas3){
+    if (casas3 > 0){
+        printf("Cima\n");
+        printf("Cima\n");
+        printf("Esquerda\n");
+        moverCavalo(casas3 - 3);
+        printf("\n");
+        }
+}
+
+
+//Movimento do Bispo
+void moverBispo(int casas4){
+    if (casas4 > 0){
+        printf("Esquerda\n");
+        printf("Cima\n");
+        moverBispo(casas4 - 1);
+        printf("\n");
+        }
+}
+
+
+
+int main()  {
+    printf("Torre\n");
+    moverTorre(5);
+    printf("Rainha\n");
+    moverRainha(10);
+    printf("Cavalo\n");
+    moverCavalo(3);
+    printf("Bisbo\n");
+    moverBispo(10);
+
+    return 0;
+}
+Iviazinha
+ iniciou uma chamada que durou 2 horas. — 28/04/2025 20:33
+rezenndee — 28/04/2025 20:35
+Ta me ouvindo ?
+Iviazinha — 28/04/2025 20:35
+não
+rezenndee — 28/04/2025 20:36
+Vou fechar e entrar
+Iviazinha — 28/04/2025 20:37
+tooooooooooo
+Iviazinha — 28/04/2025 21:02
+Explicação do Código:
+Definições de Constantes:
+
+TAMANHO_TABULEIRO define o tamanho do tabuleiro como 10.
+TAMANHO_NAVIO define o tamanho dos navios como 3.
+Função exibirTabuleiro:
+
+Esta função recebe o tabuleiro como argumento e imprime cada elemento em um formato organizado.
+Função main:
+
+Inicializa o tabuleiro com zeros, representando água.
+Define as coordenadas iniciais para o navio horizontal e vertical.
+Utiliza loops para posicionar os navios no tabuleiro, substituindo os valores de água (0) por 3, que representa as partes dos navios.
+Chama a função exibirTabuleiro para mostrar o estado atual do tabuleiro.
+Considerações:
+O código não implementa validações complexas, como verificar se os navios se sobrepõem ou se estão dentro dos limites do tabuleiro, pois isso foi simplificado conforme solicitado.
+O código é bem documentado com comentários que explicam cada parte, facilitando a compreensão.
+https://www.blackbox.ai/share/6854ca63-cfc3-48d4-8203-597e5adc922c
+Iviazinha — 28/04/2025 22:05
+ooouuuuuu
+rezenndee — 28/04/2025 22:25
+eiiii
+Você perdeu uma chamada de 
+Iviazinha
+ que durou poucos segundos. — Ontem às 19:33
+rezenndee
+ iniciou uma chamada que durou 3 horas. — Ontem às 19:49
+Iviazinha — Ontem às 19:59
 #include <stdio.h>
 
 #define TAMANHO_TABULEIRO 10
@@ -22,82 +352,280 @@ void exibirTabuleiro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]) {
     }
 }
 
-// Função para verificar se o navio pode ser posicionado
-int podePosicionarNavio(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], int linha, int coluna, int orientacao) {
-    // Verifica se o navio pode ser posicionado horizontalmente
-    if (orientacao == 0) { // Horizontal
-        if (coluna + TAMANHO_NAVIO > TAMANHO_TABULEIRO) return 0; // Fora dos limites
-        for (int i = 0; i < TAMANHO_NAVIO; i++) {
-            if (tabuleiro[linha][coluna + i] != 0) return 0; // Sobreposição
-        }
-    }
-    // Verifica se o navio pode ser posicionado verticalmente
-    else if (orientacao == 1) { // Vertical
-        if (linha + TAMANHO_NAVIO > TAMANHO_TABULEIRO) return 0; // Fora dos limites
-        for (int i = 0; i < TAMANHO_NAVIO; i++) {
-            if (tabuleiro[linha + i][coluna] != 0) return 0; // Sobreposição
-        }
-    }
-    // Verifica se o navio pode ser posicionado diagonalmente
-    else if (orientacao == 2) { // Diagonal (crescente)
-        if (linha + TAMANHO_NAVIO > TAMANHO_TABULEIRO || coluna + TAMANHO_NAVIO > TAMANHO_TABULEIRO) return 0; // Fora dos limites
-        for (int i = 0; i < TAMANHO_NAVIO; i++) {
-            if (tabuleiro[linha + i][coluna + i] != 0) return 0; // Sobreposição
-        }
-    }
-    else if (orientacao == 3) { // Diagonal (decrescente)
-        if (linha + TAMANHO_NAVIO > TAMANHO_TABULEIRO || coluna - TAMANHO_NAVIO < -1) return 0; // Fora dos limites
-        for (int i = 0; i < TAMANHO_NAVIO; i++) {
-            if (tabuleiro[linha + i][coluna - i] != 0) return 0; // Sobreposição
-        }
-    }
-    return 1; // Pode posicionar
-}
-
-// Função para posicionar o navio
-void posicionarNavio(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], int linha, int coluna, int orientacao) {
-    if (orientacao == 0) { // Horizontal
-        for (int i = 0; i < TAMANHO_NAVIO; i++) {
-            tabuleiro[linha][coluna + i] = 3; // 3 representa o navio
-        }
-    } else if (orientacao == 1) { // Vertical
-        for (int i = 0; i < TAMANHO_NAVIO; i++) {
-            tabuleiro[linha + i][coluna] = 3; // 3 representa o navio
-        }
-    } else if (orientacao == 2) { // Diagonal (crescente)
-        for (int i = 0; i < TAMANHO_NAVIO; i++) {
-            tabuleiro[linha + i][coluna + i] = 3; // 3 representa o navio
-        }
-    } else if (orientacao == 3) { // Diagonal (decrescente)
-        for (int i = 0; i < TAMANHO_NAVIO; i++) {
-            tabuleiro[linha + i][coluna - i] = 3; // 3 representa o navio
-        }
-    }
-}
-
 int main() {
-    int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO] = {0}; // Inicializa o tabuleiro com 0
+    // Inicializa o tabuleiro com água (0)
+    int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO] = {0};
 
-    // Posiciona navios horizontalmente
-    if (podePosicionarNavio(tabuleiro, 0, 0, 0)) {
-        posicionarNavio(tabuleiro, 0, 0, 0); // Navio horizontal na linha 0, coluna 0
+    // Coordenadas iniciais do navio horizontal
+    int linhaHorizontal = 2; // Linha 3
+    int colunaHorizontal = 3; // Coluna D
+
+    // Coordenadas iniciais do navio vertical
+    int linhaVertical = 5; // Linha 6
+    int colunaVertical = 6; // Coluna G
+
+    // Posiciona o navio horizontal
+    for (int i = 0; i < TAMANHO_NAVIO; i++) {
+        tabuleiro[linhaHorizontal][colunaHorizontal + i] = 3; // 3 representa o navio
     }
 
-    if (podePosicionarNavio(tabuleiro, 1, 1, 1)) {
-        posicionarNavio(tabuleiro, 1, 1, 1); // Navio vertical na linha 1, coluna 1
-    }
-
-    // Posiciona navios diagonalmente
-    if (podePosicionarNavio(tabuleiro, 2, 2, 2)) {
-        posicionarNavio(tabuleiro, 2, 2, 2); // Navio diagonal crescente na linha 2, coluna 2
-    }
-
-    if (podePosicionarNavio(tabuleiro, 3, 9, 3)) {
-        posicionarNavio(tabuleiro, 3, 9, 3); // Navio diagonal decrescente na linha 3, coluna 9
+    // Posiciona o navio vertical
+    for (int i = 0; i < TAMANHO_NAVIO; i++) {
+        tabuleiro[linhaVertical + i][colunaVertical] = 3; // 3 representa o navio
     }
 
     // Exibe o tabuleiro
+    printf("Tabuleiro de Batalha Naval:\n");
     exibirTabuleiro(tabuleiro);
 
     return 0;
 }
+Iviazinha — Ontem às 20:44
+https://www.blackbox.ai/share/2c0115dd-a653-4567-bbe9-d2e2048ead0a
+Iviazinha — Ontem às 20:56
+#include <stdio.h>
+
+#define TAMANHO_TABULEIRO 10
+#define TAMANHO_NAVIO 3
+
+// Função para exibir o tabuleiro
+Expandir
+teste.c
+5 KB
+Iviazinha — Ontem às 22:01
+#include <stdio.h>
+
+#define TAMANHO_TABULEIRO 10
+#define TAMANHO_HABILIDADE 5
+
+// Função para exibir o tabuleiro
+Expandir
+message.txt
+5 KB
+rezenndee — Ontem às 22:02
+https://youtu.be/OPa3tY4ne38
+YouTube
+Pietro Martins De Oliveira
+C Basics #004: vetores, matrizes e registros (structs) em linguagem...
+Imagem
+Iviazinha
+ iniciou uma chamada. — 21:13
+Iviazinha — 21:18
+#include <stdio.h>
+
+#define TAMANHO_TABULEIRO 10
+#define TAMANHO_HABILIDADE 5
+
+// Função para exibir o tabuleiro
+void exibirTabuleiro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]) {
+    printf("   ");
+    for (int j = 0; j < TAMANHO_TABULEIRO; j++) {
+        printf("%c ", 'A' + j); // Exibe letras de A a J
+    }
+    printf("\n");
+
+    for (int i = 0; i < TAMANHO_TABULEIRO; i++) {
+        printf("%d  ", i + 1); // Exibe números de 1 a 10
+        for (int j = 0; j < TAMANHO_TABULEIRO; j++) {
+            printf("%d ", tabuleiro[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+// Função para criar a matriz de habilidade em forma de cone
+void criarHabilidadeCone(int habilidade[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE]) {
+    for (int i = 0; i < TAMANHO_HABILIDADE; i++) {
+        for (int j = 0; j < TAMANHO_HABILIDADE; j++) {
+            if (j >= (TAMANHO_HABILIDADE / 2) - i && j <= (TAMANHO_HABILIDADE / 2) + i) {
+                habilidade[i][j] = 1; // Área afetada
+            } else {
+                habilidade[i][j] = 0; // Área não afetada
+            }
+        }
+    }
+}
+
+// Função para criar a matriz de habilidade em forma de cruz
+void criarHabilidadeCruz(int habilidade[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE]) {
+    for (int i = 0; i < TAMANHO_HABILIDADE; i++) {
+        for (int j = 0; j < TAMANHO_HABILIDADE; j++) {
+            if (i == TAMANHO_HABILIDADE / 2 || j == TAMANHO_HABILIDADE / 2) {
+                habilidade[i][j] = 1; // Área afetada
+            } else {
+                habilidade[i][j] = 0; // Área não afetada
+            }
+        }
+    }
+}
+
+// Função para criar a matriz de habilidade em forma de octaedro
+void criarHabilidadeOctaedro(int habilidade[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE]) {
+    for (int i = 0; i < TAMANHO_HABILIDADE; i++) {
+        for (int j = 0; j < TAMANHO_HABILIDADE; j++) {
+            if (i + j >= TAMANHO_HABILIDADE / 2 && i + (TAMANHO_HABILIDADE - 1 - j) >= TAMANHO_HABILIDADE / 2 &&
+                (TAMANHO_HABILIDADE - 1 - i) + j >= TAMANHO_HABILIDADE / 2 && (TAMANHO_HABILIDADE - 1 - i) + (TAMANHO_HABILIDADE - 1 - j) >= TAMANHO_HABILIDADE / 2) {
+                habilidade[i][j] = 1; // Área afetada
+            } else {
+                habilidade[i][j] = 0; // Área não afetada
+            }
+        }
+    }
+}
+
+// Função para aplicar a habilidade no tabuleiro
+void aplicarHabilidade(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], int habilidade[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE], int linha, int coluna) {
+    for (int i = 0; i < TAMANHO_HABILIDADE; i++) {
+        for (int j = 0; j < TAMANHO_HABILIDADE; j++) {
+            if (habilidade[i][j] == 1) {
+                int novaLinha = linha + i - (TAMANHO_HABILIDADE / 2);
+                int novaColuna = coluna + j - (TAMANHO_HABILIDADE / 2);
+                // Verifica se a nova posição está dentro dos limites do tabuleiro
+                if (novaLinha >= 0 && novaLinha < TAMANHO_TABULEIRO && novaColuna >= 0 && novaColuna < TAMANHO_TABULEIRO) {
+                    tabuleiro[novaLinha][novaColuna] = 5; // Marca a área afetada pela habilidade
+                }   }
+            }
+        }
+    }
+    
+    int main() {
+        // Inicializa o tabuleiro com água (0)
+        int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO] = {0};
+    
+        // Posiciona alguns navios no tabuleiro
+        tabuleiro[0][2] = 3; // Navio na posição (1, C)
+        tabuleiro[1][1] = 3; // Navio na posição (2, B)
+        tabuleiro[2][2] = 3; // Navio na posição (3, C)
+        tabuleiro[3][9] = 3; // Navio na posição (4, J)
+    
+        // Cria matrizes para as habilidades
+        int habilidadeCone[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE];
+        int habilidadeCruz[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE];
+        int habilidadeOctaedro[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE];
+    
+        // Cria as áreas de efeito das habilidades
+        criarHabilidadeCone(habilidadeCone);
+        criarHabilidadeCruz(habilidadeCruz);
+        criarHabilidadeOctaedro(habilidadeOctaedro);
+    
+        // Define pontos de origem para as habilidades
+        int origemConeLinha = 1, origemConeColuna = 2; // Centro do cone
+        int origemCruzLinha = 3, origemCruzColuna = 3; // Centro da cruz
+... (13 linhas)
+Recolher
+message.txt
+5 KB
+﻿
+#include <stdio.h>
+
+#define TAMANHO_TABULEIRO 10
+#define TAMANHO_HABILIDADE 5
+
+// Função para exibir o tabuleiro
+void exibirTabuleiro(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO]) {
+    printf("   ");
+    for (int j = 0; j < TAMANHO_TABULEIRO; j++) {
+        printf("%c ", 'A' + j); // Exibe letras de A a J
+    }
+    printf("\n");
+
+    for (int i = 0; i < TAMANHO_TABULEIRO; i++) {
+        printf("%d  ", i + 1); // Exibe números de 1 a 10
+        for (int j = 0; j < TAMANHO_TABULEIRO; j++) {
+            printf("%d ", tabuleiro[i][j]);
+        }
+        printf("\n");
+    }
+}
+
+// Função para criar a matriz de habilidade em forma de cone
+void criarHabilidadeCone(int habilidade[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE]) {
+    for (int i = 0; i < TAMANHO_HABILIDADE; i++) {
+        for (int j = 0; j < TAMANHO_HABILIDADE; j++) {
+            if (j >= (TAMANHO_HABILIDADE / 2) - i && j <= (TAMANHO_HABILIDADE / 2) + i) {
+                habilidade[i][j] = 1; // Área afetada
+            } else {
+                habilidade[i][j] = 0; // Área não afetada
+            }
+        }
+    }
+}
+
+// Função para criar a matriz de habilidade em forma de cruz
+void criarHabilidadeCruz(int habilidade[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE]) {
+    for (int i = 0; i < TAMANHO_HABILIDADE; i++) {
+        for (int j = 0; j < TAMANHO_HABILIDADE; j++) {
+            if (i == TAMANHO_HABILIDADE / 2 || j == TAMANHO_HABILIDADE / 2) {
+                habilidade[i][j] = 1; // Área afetada
+            } else {
+                habilidade[i][j] = 0; // Área não afetada
+            }
+        }
+    }
+}
+
+// Função para criar a matriz de habilidade em forma de octaedro
+void criarHabilidadeOctaedro(int habilidade[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE]) {
+    for (int i = 0; i < TAMANHO_HABILIDADE; i++) {
+        for (int j = 0; j < TAMANHO_HABILIDADE; j++) {
+            if (i + j >= TAMANHO_HABILIDADE / 2 && i + (TAMANHO_HABILIDADE - 1 - j) >= TAMANHO_HABILIDADE / 2 &&
+                (TAMANHO_HABILIDADE - 1 - i) + j >= TAMANHO_HABILIDADE / 2 && (TAMANHO_HABILIDADE - 1 - i) + (TAMANHO_HABILIDADE - 1 - j) >= TAMANHO_HABILIDADE / 2) {
+                habilidade[i][j] = 1; // Área afetada
+            } else {
+                habilidade[i][j] = 0; // Área não afetada
+            }
+        }
+    }
+}
+
+// Função para aplicar a habilidade no tabuleiro
+void aplicarHabilidade(int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO], int habilidade[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE], int linha, int coluna) {
+    for (int i = 0; i < TAMANHO_HABILIDADE; i++) {
+        for (int j = 0; j < TAMANHO_HABILIDADE; j++) {
+            if (habilidade[i][j] == 1) {
+                int novaLinha = linha + i - (TAMANHO_HABILIDADE / 2);
+                int novaColuna = coluna + j - (TAMANHO_HABILIDADE / 2);
+                // Verifica se a nova posição está dentro dos limites do tabuleiro
+                if (novaLinha >= 0 && novaLinha < TAMANHO_TABULEIRO && novaColuna >= 0 && novaColuna < TAMANHO_TABULEIRO) {
+                    tabuleiro[novaLinha][novaColuna] = 5; // Marca a área afetada pela habilidade
+                }   }
+            }
+        }
+    }
+    
+    int main() {
+        // Inicializa o tabuleiro com água (0)
+        int tabuleiro[TAMANHO_TABULEIRO][TAMANHO_TABULEIRO] = {0};
+    
+        // Posiciona alguns navios no tabuleiro
+        tabuleiro[0][2] = 3; // Navio na posição (1, C)
+        tabuleiro[1][1] = 3; // Navio na posição (2, B)
+        tabuleiro[2][2] = 3; // Navio na posição (3, C)
+        tabuleiro[3][9] = 3; // Navio na posição (4, J)
+    
+        // Cria matrizes para as habilidades
+        int habilidadeCone[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE];
+        int habilidadeCruz[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE];
+        int habilidadeOctaedro[TAMANHO_HABILIDADE][TAMANHO_HABILIDADE];
+    
+        // Cria as áreas de efeito das habilidades
+        criarHabilidadeCone(habilidadeCone);
+        criarHabilidadeCruz(habilidadeCruz);
+        criarHabilidadeOctaedro(habilidadeOctaedro);
+    
+        // Define pontos de origem para as habilidades
+        int origemConeLinha = 1, origemConeColuna = 2; // Centro do cone
+        int origemCruzLinha = 3, origemCruzColuna = 3; // Centro da cruz
+        int origemOctaedroLinha = 4, origemOctaedroColuna = 4; // Centro do octaedro
+    
+        // Aplica as habilidades no tabuleiro
+        aplicarHabilidade(tabuleiro, habilidadeCone, origemConeLinha, origemConeColuna);
+        aplicarHabilidade(tabuleiro, habilidadeCruz, origemCruzLinha, origemCruzColuna);
+        aplicarHabilidade(tabuleiro, habilidadeOctaedro, origemOctaedroLinha, origemOctaedroColuna);
+    
+        // Exibe o tabuleiro final
+        printf("Tabuleiro de Batalha Naval com Habilidades:\n");
+        exibirTabuleiro(tabuleiro);
+    
+        return 0;
+    }
